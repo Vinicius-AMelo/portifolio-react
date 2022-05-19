@@ -1,0 +1,90 @@
+.main--Nav {
+    display: flex;
+    flex-direction: column;
+    background-color: #303030;
+    width: 250px;
+    font-size: 1.4rem;
+
+    a.active {
+        svg {
+            color: yellow;
+        }
+    }
+
+    li {
+        // &:hover {
+        //     background-color: #00000030;
+        // }
+
+        a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 80px;
+            color: #d0d0d0;
+            flex-grow: 1;
+            font-size: 50px;
+
+            &:hover {
+                color: yellow;
+
+                svg {
+                    opacity: 0;
+                    transition: all 0.3s ease-out;
+                }
+
+                &::after {
+                    transition: all 0.3s ease-out;
+                    opacity: 1;
+                }
+            }
+
+            &::after {
+                position: absolute;
+                font-size: 30px;
+                letter-spacing: 2px;
+                text-align: center;
+                content: '';
+                opacity: 0;
+            }
+
+            &.Home {
+                &::after {
+                    content: 'Home'
+                }
+            }
+
+            &.Techs {
+                &::after {
+                    content: 'Technologies'
+                }
+            }
+
+            &.About {
+                &::after {
+                    content: 'About'
+                }
+            }
+
+            &.Projects {
+                &::after {
+                    content: 'Projects'
+                }
+            }
+        }
+    }
+
+    img {
+        width: 200px;
+        height: 200px;
+        border-radius: 100px;
+    }
+}
+
+.foto {
+    margin: 30px auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
