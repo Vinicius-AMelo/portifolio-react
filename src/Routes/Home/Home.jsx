@@ -1,7 +1,6 @@
-function Home()
-{
+function Home() {
     return (
-        <div>Casa</div>
+        <div>Home</div>
     )
 }
 

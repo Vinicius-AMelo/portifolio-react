@@ -3,7 +3,6 @@
     flex-direction: column;
     background-color: #303030;
     width: 250px;
-    font-size: 1.4rem;
 
     a.active {
         svg {
@@ -21,9 +20,9 @@
             align-items: center;
             justify-content: center;
             height: 80px;
-            color: #d0d0d0;
+            color: #999999;
             flex-grow: 1;
-            font-size: 50px;
+            font-size: 35px;
 
             &:hover {
                 color: yellow;
@@ -41,8 +40,8 @@
 
             &::after {
                 position: absolute;
-                font-size: 30px;
-                letter-spacing: 2px;
+                font-size: 25px;
+                letter-spacing: 3px;
                 text-align: center;
                 content: '';
                 opacity: 0;
@@ -81,16 +80,16 @@
     }
 
     img {
-        width: 200px;
-        height: 200px;
-        border-radius: 100px;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
     }
 }
 
 .foto {
     margin: 30px auto;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     overflow: hidden;
 }
