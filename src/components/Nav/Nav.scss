@@ -71,6 +71,12 @@
                     content: 'Projects'
                 }
             }
+
+            &.Contact {
+                &::after {
+                    content: 'Contact'
+                }
+            }
         }
     }
 
