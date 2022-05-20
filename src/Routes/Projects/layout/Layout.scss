@@ -1,0 +1,97 @@
+.main--Layout {
+
+    .Layout {
+        cursor: pointer;
+
+        width: 470px;
+        height: 320px;
+
+        background-color: #3b3c3d;
+        color: #fff;
+
+        padding: 10px;
+
+        .content {
+            height: 300px;
+            width: 450px;
+
+            img {
+                height: 300px;
+                width: 450px;
+            }
+
+        }
+
+        .infos {
+            display: flex;
+            gap: 5px;
+
+            a {
+                margin: 10px;
+                padding: 3px;
+                background-color: #0CAADC;
+                border-radius: 5px;
+                color: #fff;
+            }
+        }
+
+        &:hover {
+            animation: 0.2s ease-out chique;
+        }
+
+        @keyframes chique {
+            0% {
+                transform: translateY(0px);
+            }
+
+            50% {
+                transform: translateY(15px);
+            }
+
+            100% {
+                transform: translateY(0px);
+            }
+        }
+    }
+
+    .active {
+
+        cursor: default;
+
+        padding: 25px 10px;
+        width: 870px;
+        height: 550px;
+
+        .content {
+            width: 850px;
+            height: 450px;
+
+            img {
+                width: 850px;
+                height: 450px;
+            }
+        }
+
+        .closeWindow {
+            background-color: #FC5753;
+            color: #FC5753;
+            font-size: 15px;
+
+            border-radius: 50%;
+
+            position: absolute;
+            left: 420px;
+            top: 57.5px;
+
+            &:hover {
+                color: #7E0508;
+                cursor: pointer;
+            }
+        }
+
+        &:hover {
+            animation: none;
+        }
+    }
+
+}
