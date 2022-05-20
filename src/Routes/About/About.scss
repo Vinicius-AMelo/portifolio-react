@@ -3,8 +3,13 @@
     display: flex;
     align-items: flex-end;
     padding: 200px 100px;
-}
 
-.main--About article {
-    width: 600px;
+    article {
+        width: 600px;
+
+        hr {
+            width: 208px;
+            margin-bottom: 20px;
+        }
+    }
 }

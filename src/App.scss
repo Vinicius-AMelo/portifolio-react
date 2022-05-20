@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Nunito+Sans&display=swap');
 
 * {
     padding: 0;
@@ -6,11 +6,10 @@
     box-sizing: border-box;
     outline: none;
     text-decoration: none;
-    font-family: 'Koulen', cursive;
 }
 
 .App {
-    background-color: #314453;
+    background-color: #d5d5d5;
     height: 100vh;
     display: flex;
 }

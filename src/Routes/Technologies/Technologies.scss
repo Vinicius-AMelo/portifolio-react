@@ -1,0 +1,53 @@
+.main--Technologies {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+
+    article {
+        height: 300px;
+        width: 600px;
+        font-size: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+
+
+    .HTML {
+        color: orangered;
+    }
+
+    .CSS3 {
+        color: dodgerblue;
+    }
+
+    .JS {
+        background-color: #000;
+        color: #F7C327;
+    }
+
+    .MONGO {
+        border-radius: 5px;
+        color: #00E661;
+        background-color: #001D2A;
+    }
+
+    .GIT {
+        color: #EB4D28;
+    }
+
+    .TS {
+        background-color: #fff;
+        color: #2F74C0;
+    }
+
+    .REACT {
+        color: #5ED3F3;
+    }
+
+    .SASS {
+        color: #C76494;
+    }
+
+}

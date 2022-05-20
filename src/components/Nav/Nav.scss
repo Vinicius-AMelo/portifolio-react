@@ -1,12 +1,14 @@
+$detail-color: #0CAADC;
+
 .main--Nav {
     display: flex;
     flex-direction: column;
-    background-color: #303030;
+    background-color: #3b3c3d;
     width: 250px;
 
     a.active {
         svg {
-            color: yellow;
+            color: $detail-color;
         }
     }
 
@@ -16,16 +18,17 @@
         // }
 
         a {
+            font-family: 'Koulen', cursive;
             display: flex;
             align-items: center;
             justify-content: center;
             height: 80px;
-            color: #999999;
+            color: #fff;
             flex-grow: 1;
             font-size: 35px;
 
             &:hover {
-                color: yellow;
+                color: $detail-color;
 
                 svg {
                     opacity: 0;
