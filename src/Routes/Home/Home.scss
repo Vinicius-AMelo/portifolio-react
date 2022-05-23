@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Smooch&family=Tangerine:wght@400;700&display=swap');
+
+.main--Home {
+    height: 100vh;
+    background-color: aqua;
+    text-align: left;
+    text-overflow: clip;
+
+    .home {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        gap: 10px;
+
+        .name {
+            font-size: 30px;
+            color: orange;
+        }
+    }
+}

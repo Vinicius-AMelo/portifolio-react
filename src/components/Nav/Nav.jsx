@@ -19,6 +19,7 @@ function Nav() {
                         to='/'>
                         <FaHome />
                     </NavLink>
+                    <hr />
                 </li>
                 <li>
                     <NavLink
@@ -27,6 +28,7 @@ function Nav() {
                         to='/Technologies'>
                         <FaTools />
                     </NavLink>
+                    <hr />
                 </li>
                 <li>
                     <NavLink
@@ -35,6 +37,7 @@ function Nav() {
                         to='/About'>
                         <FaUserAlt />
                     </NavLink>
+                    <hr />
                 </li>
                 <li>
                     <NavLink
@@ -43,6 +46,7 @@ function Nav() {
                         to='/Projects'>
                         <FaLaptopCode />
                     </NavLink>
+                    <hr />
                 </li>
                 <li>
                     <NavLink
@@ -51,6 +55,7 @@ function Nav() {
                         to='/Contact'>
                         <FaEnvelope />
                     </NavLink>
+                    <hr />
                 </li>
             </ul>
         </nav>

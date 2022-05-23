@@ -1,10 +1,12 @@
 .main--Technologies {
-    display: flex;
-    justify-content: center;
     height: 100vh;
+
+    display: flex;
     align-items: center;
+    flex-direction: column;
 
     article {
+        margin: auto;
         height: 300px;
         width: 600px;
         font-size: 100px;
@@ -13,8 +15,15 @@
         gap: 50px;
     }
 
+    h1 {
+        margin: 30px;
+        align-self: flex-start;
+    }
 
     .HTML {
+        transition: all 2s 2s;
+        transform: translateY(30px);
+        transform: translateY(0px);
         color: orangered;
     }
 
@@ -27,7 +36,7 @@
         color: #F7C327;
     }
 
-    .MONGO {
+    .MONGODB {
         border-radius: 5px;
         color: #00E661;
         background-color: #001D2A;
@@ -48,6 +57,17 @@
 
     .SASS {
         color: #C76494;
+    }
+
+    .active {
+        animation: 1.5s linear bigIcon;
+    }
+
+    @keyframes bigIcon {
+        50% {
+            transform: scale(1.3);
+        }
+
     }
 
 }

@@ -4,7 +4,8 @@ $detail-color: #0CAADC;
     display: flex;
     flex-direction: column;
     background-color: #3b3c3d;
-    width: 200px;
+    width: 250px;
+    gap: 30px;
 
     a.active {
         svg {
@@ -13,19 +14,20 @@ $detail-color: #0CAADC;
     }
 
     li {
-        // &:hover {
-        //     background-color: #00000030;
-        // }
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
 
         a {
             font-family: 'Koulen', cursive;
             display: flex;
             align-items: center;
             justify-content: center;
-            height: 80px;
-            color: #fff;
+            height: 70px;
+            color: rgba(230, 230, 230, 0.85);
             flex-grow: 1;
-            font-size: 35px;
+            font-size: 30px;
 
             &:hover {
                 color: $detail-color;
@@ -43,7 +45,7 @@ $detail-color: #0CAADC;
 
             &::after {
                 position: absolute;
-                font-size: 25px;
+                font-size: 23px;
                 letter-spacing: 3px;
                 text-align: center;
                 content: '';
@@ -79,6 +81,11 @@ $detail-color: #0CAADC;
                     content: 'Contact'
                 }
             }
+        }
+
+        hr {
+            width: 120px;
+            border: 0.1px solid #cdcdcda1;
         }
     }
 
