@@ -14,45 +14,45 @@ function Nav() {
             <ul>
                 <li>
                     <NavLink
-                        exact activeclassname='active'
+                        exact={true} activeclassname='active'
                         className='Home'
-                        to='/portifolio-react/'>
+                        to='/'>
                         <FaHome />
                     </NavLink>
                     <hr />
                 </li>
                 <li>
                     <NavLink
-                        exact activeclassname='active'
+                        exact={true} activeclassname='active'
                         className='Techs'
-                        to='/portifolio-react/Technologies'>
+                        to='/Technologies'>
                         <FaTools />
                     </NavLink>
                     <hr />
                 </li>
                 <li>
                     <NavLink
-                        exact activeclassname='active'
+                        exact={true} activeclassname='active'
                         className='About'
-                        to='/portifolio-react/About'>
+                        to='/About'>
                         <FaUserAlt />
                     </NavLink>
                     <hr />
                 </li>
                 <li>
                     <NavLink
-                        exact activeclassname='active'
+                        exact={true} activeclassname='active'
                         className='Projects'
-                        to='/portifolio-react/Projects'>
+                        to='/Projects'>
                         <FaLaptopCode />
                     </NavLink>
                     <hr />
                 </li>
                 <li>
                     <NavLink
-                        exact activeclassname='active'
+                        exact={true} activeclassname='active'
                         className='Contact'
-                        to='/portifolio-react/Contact'>
+                        to='/Contact'>
                         <FaEnvelope />
                     </NavLink>
                     <hr />
