@@ -12,10 +12,10 @@ function Content() {
   return (
     <div className='main--Content'>
       <Routes>
-        <Route path="portifolio-react/" element={<Home />} />
-        <Route path="portifolio-react/Technologies" element={<Technologies />} />
-        <Route path="portifolio-react/About" element={<About />} />
-        <Route path="portifolio-react/Projects" element={<Projects />} />
+        <Route path="/portifolio-react/" element={<Home />} />
+        <Route path="/portifolio-react/Technologies" element={<Technologies />} />
+        <Route path="/portifolio-react/About" element={<About />} />
+        <Route path="/portifolio-react/Projects" element={<Projects />} />
       </Routes>
     </div>
   )

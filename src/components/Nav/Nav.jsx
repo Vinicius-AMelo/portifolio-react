@@ -16,7 +16,7 @@ function Nav() {
                     <NavLink
                         exact activeclassname='active'
                         className='Home'
-                        to='portifolio-react/'>
+                        to='/portifolio-react/'>
                         <FaHome />
                     </NavLink>
                     <hr />
@@ -25,7 +25,7 @@ function Nav() {
                     <NavLink
                         exact activeclassname='active'
                         className='Techs'
-                        to='portifolio-react/Technologies'>
+                        to='/portifolio-react/Technologies'>
                         <FaTools />
                     </NavLink>
                     <hr />
@@ -34,7 +34,7 @@ function Nav() {
                     <NavLink
                         exact activeclassname='active'
                         className='About'
-                        to='portifolio-react/About'>
+                        to='/portifolio-react/About'>
                         <FaUserAlt />
                     </NavLink>
                     <hr />
@@ -43,7 +43,7 @@ function Nav() {
                     <NavLink
                         exact activeclassname='active'
                         className='Projects'
-                        to='portifolio-react/Projects'>
+                        to='/portifolio-react/Projects'>
                         <FaLaptopCode />
                     </NavLink>
                     <hr />
@@ -52,7 +52,7 @@ function Nav() {
                     <NavLink
                         exact activeclassname='active'
                         className='Contact'
-                        to='portifolio-react/Contact'>
+                        to='/portifolio-react/Contact'>
                         <FaEnvelope />
                     </NavLink>
                     <hr />
