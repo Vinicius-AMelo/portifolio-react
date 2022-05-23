@@ -7,10 +7,16 @@ import { SiHtml5, SiCss3, SiJavascript, SiGit, SiTypescript, SiReact, SiSass, Si
 
 function Technologies() {
 
-    const [techs, setTechs] = useState('');
+    const [techs, setTechs] = useState(7);
 
     function bigIcon(e) {
-        setTimeout(() => { setTechs(e) }, 2000)
+        if (techs === 3 || techs === 4) {
+            setTimeout(() => { setTechs(e) }, 2500)
+        } else if (techs === 6) {
+            setTimeout(() => { setTechs(e) }, 2350)
+        } else {
+            setTimeout(() => { setTechs(e) }, 2200)
+        }
     }
 
     return (
@@ -22,16 +28,16 @@ function Technologies() {
                         strings={[
                             'HTML5',
                             'CSS3',
-                            'JavaScript',
-                            'MongoDB',
+                            'SASS',
                             'Git',
+                            'JavaScript',
                             'TypeScript',
                             'React',
-                            'SASS'
+                            'MongoDB',
                         ]}
                         typeSpeed={50}
                         backDelay={2000}
-                        backSpeed={0}
+                        backSpeed={30}
                         loop >
                     </Typed>
                 </p>
@@ -39,12 +45,12 @@ function Technologies() {
             <article>
                 <SiHtml5 className={techs === 7 ? 'HTML active' : 'HTML'} />
                 <SiCss3 className={techs === 0 ? 'CSS3 active' : 'CSS3'} />
-                <SiJavascript className={techs === 1 ? 'JS active' : 'JS'} />
-                <SiMongodb className={techs === 2 ? 'MONGODB active' : 'MONGODB'} />
-                <SiGit className={techs === 3 ? 'GIT active' : 'GIT'} />
+                <SiSass className={techs === 1 ? 'SASS active' : 'SASS'} />
+                <SiGit className={techs === 2 ? 'GIT active' : 'GIT'} />
+                <SiJavascript className={techs === 3 ? 'JS active' : 'JS'} />
                 <SiTypescript className={techs === 4 ? 'TS active' : 'TS'} />
                 <SiReact className={techs === 5 ? 'REACT active' : 'REACT'} />
-                <SiSass className={techs === 6 ? 'SASS active' : 'SASS'} />
+                <SiMongodb className={techs === 6 ? 'MONGODB active' : 'MONGODB'} />
             </article>
         </div>
     )

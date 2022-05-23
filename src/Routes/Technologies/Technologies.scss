@@ -18,12 +18,13 @@
     h1 {
         margin: 30px;
         align-self: flex-start;
+
+        p {
+            font-size: 1.5em;
+        }
     }
 
     .HTML {
-        transition: all 2s 2s;
-        transform: translateY(30px);
-        transform: translateY(0px);
         color: orangered;
     }
 
@@ -60,7 +61,7 @@
     }
 
     .active {
-        animation: 1.5s linear bigIcon;
+        animation: 2s ease-out bigIcon;
     }
 
     @keyframes bigIcon {
@@ -69,5 +70,4 @@
         }
 
     }
-
 }

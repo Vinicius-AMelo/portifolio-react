@@ -8,14 +8,18 @@ function Layout({ linkPages, linkGitHub, img }) {
 
     const [active, setActive] = useState(false);
 
-    function activeClass() {
-        setActive(!active)
+    function showWindow() {
+        setActive(true)
+    }
+
+    function closeWindow() {
+        setActive(false)
     }
 
     return (
         <div className='main--Layout'>
-            <div onClick={activeClass} className={!active ? 'Layout' : 'Layout active'} >
-                {active && <IoCloseSharp className='closeWindow' />}
+            {active && <div className='cc'><IoCloseSharp onClick={closeWindow} className='closeWindow' /></div>}
+            <div onClick={showWindow} className={!active ? 'Layout' : 'Layout active'} >
                 <div className='content'><img src={img} alt="z" />
                 </div>
                 {active && <div className='infos'>

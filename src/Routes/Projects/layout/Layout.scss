@@ -1,4 +1,35 @@
 .main--Layout {
+    .cc {
+        display: flex;
+        align-items: center;
+
+        height: 26.5px;
+        width: 870.5px;
+
+        position: absolute;
+        left: 457.5px;
+        top: 81.5px;
+
+        &:hover {
+
+            .closeWindow {
+                color: #7E0508;
+                cursor: pointer;
+            }
+
+        }
+
+        .closeWindow {
+            background-color: #FC5753;
+            color: #FC5753;
+
+            font-size: 15px;
+
+            border-radius: 50%;
+
+            margin-left: 20px;
+        }
+    }
 
     .Layout {
         cursor: pointer;
@@ -72,26 +103,8 @@
             }
         }
 
-        .closeWindow {
-            background-color: #FC5753;
-            color: #FC5753;
-            font-size: 15px;
-
-            border-radius: 50%;
-
-            position: absolute;
-            left: 475px;
-            top: 87.5px;
-
-            &:hover {
-                color: #7E0508;
-                cursor: pointer;
-            }
-        }
-
         &:hover {
             animation: none;
         }
     }
-
 }
