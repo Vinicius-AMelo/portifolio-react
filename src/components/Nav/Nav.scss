@@ -90,16 +90,35 @@ $detail-color: #0CAADC;
     }
 
     img {
-        width: 150px;
-        height: 150px;
-        border-radius: 50%;
+        position: absolute;
+        left: 58px;
+        width: 134px;
+        height: 119px;
+        animation: 6s linear infinite sharingan;
     }
+
 }
 
 .foto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 30px auto;
     width: 150px;
     height: 150px;
     border-radius: 50%;
     overflow: hidden;
+
+}
+
+@keyframes sharingan {
+
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+
+    }
 }
