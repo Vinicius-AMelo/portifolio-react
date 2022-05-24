@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/portifolio-react/static/css/main.5c5ad92a.css",
-    "main.js": "/portifolio-react/static/js/main.d2c7046d.js",
-    "static/media/fundo.jpg": "/portifolio-react/static/media/fundo.d9807e6a516e10c63675.jpg",
+    "main.css": "/portifolio-react/static/css/main.aa7bef43.css",
+    "main.js": "/portifolio-react/static/js/main.e4b88ff5.js",
     "static/media/Tenzies.jpeg": "/portifolio-react/static/media/Tenzies.5008c5c0326c7b4d750f.jpeg",
+    "static/media/react-js.png": "/portifolio-react/static/media/react-js.5d1248879ba37b0b5819.png",
+    "static/media/fundo.png": "/portifolio-react/static/media/fundo.3e93b3d943fcd8984048.png",
     "index.html": "/portifolio-react/index.html",
-    "main.5c5ad92a.css.map": "/portifolio-react/static/css/main.5c5ad92a.css.map",
-    "main.d2c7046d.js.map": "/portifolio-react/static/js/main.d2c7046d.js.map"
+    "main.aa7bef43.css.map": "/portifolio-react/static/css/main.aa7bef43.css.map",
+    "main.e4b88ff5.js.map": "/portifolio-react/static/js/main.e4b88ff5.js.map"
   },
   "entrypoints": [
-    "static/css/main.5c5ad92a.css",
-    "static/js/main.d2c7046d.js"
+    "static/css/main.aa7bef43.css",
+    "static/js/main.e4b88ff5.js"
   ]
 }
