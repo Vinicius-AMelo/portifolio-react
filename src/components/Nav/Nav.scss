@@ -1,11 +1,18 @@
-$detail-color: #0CAADC;
+$detail-color: #BA2028;
 
 .main--Nav {
+    background-color: #342c2c;
+
+    position: fixed;
+
+    height: 100vh;
+    width: 170px;
+
     display: flex;
     flex-direction: column;
-    background-color: #3b3c3d;
-    width: 250px;
-    gap: 30px;
+    align-items: center;
+    justify-content: space-evenly;
+
 
     a.active {
         svg {
@@ -27,7 +34,7 @@ $detail-color: #0CAADC;
             height: 70px;
             color: rgba(230, 230, 230, 0.85);
             flex-grow: 1;
-            font-size: 30px;
+            font-size: 24px;
 
             &:hover {
                 color: $detail-color;
@@ -45,7 +52,7 @@ $detail-color: #0CAADC;
 
             &::after {
                 position: absolute;
-                font-size: 23px;
+                font-size: 20px;
                 letter-spacing: 3px;
                 text-align: center;
                 content: '';
@@ -84,32 +91,20 @@ $detail-color: #0CAADC;
         }
 
         hr {
-            width: 120px;
+            width: 100px;
             border: 0.1px solid #cdcdcda1;
         }
     }
 
     img {
-        position: absolute;
-        left: 58px;
+        margin-top: 30px;
         width: 134px;
         height: 119px;
-        animation: 6s linear infinite sharingan;
+        animation: 8s linear infinite sharingan;
     }
 
 }
 
-.foto {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 30px auto;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    overflow: hidden;
-
-}
 
 @keyframes sharingan {
 

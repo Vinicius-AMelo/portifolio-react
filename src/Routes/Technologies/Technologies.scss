@@ -5,10 +5,12 @@
     align-items: center;
     flex-direction: column;
 
+    color: #EEE1E1;
+
     article {
         margin: auto;
         height: 300px;
-        width: 600px;
+        width: 700px;
         font-size: 100px;
         display: flex;
         flex-wrap: wrap;
@@ -38,9 +40,9 @@
     }
 
     .MONGODB {
+        background-color: #fff;
         border-radius: 5px;
         color: #00E661;
-        background-color: #001D2A;
     }
 
     .GIT {
@@ -48,6 +50,7 @@
     }
 
     .TS {
+        border-radius: 7px;
         background-color: #fff;
         color: #2F74C0;
     }
@@ -58,6 +61,14 @@
 
     .SASS {
         color: #C76494;
+    }
+
+    .NEXTJS {
+        color: #fff;
+    }
+
+    .TAILWIND {
+        color: #36B7F0;
     }
 
     .active {

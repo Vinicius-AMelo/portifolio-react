@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Koulen&family=Nunito+Sans&display=swap');
 
+$--bg-color: #ff000036;
+
 * {
     padding: 0;
     margin: 0;
@@ -8,8 +10,18 @@
     text-decoration: none;
 }
 
+
+body {
+    // overflow: hidden;
+    background-color: #202020;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+
 .App {
-    background-color: #f5f5f5;
+    color: #ffffff;
     height: 100vh;
     display: flex;
 
@@ -17,34 +29,46 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: #000;
+        background-image: url('./images/fundo.png');
+        background-position: center center;
         width: 100vw;
         height: 100vh;
-        overflow: hidden;
 
         .mange {
             position: absolute;
-            left: 42.5%;
+            margin: auto;
+
             width: 230px;
             height: 204px;
-            animation: 3s ease-out 1s mange;
+
             opacity: 0;
+
+            &.active {
+                animation: 3s ease-out 1s mange;
+            }
         }
 
         .kyo {
             position: absolute;
-            left: 42.5%;
+            margin: auto;
+
             width: 230px;
             height: 204px;
-            animation: 6s ease-out 1s kyo;
+
             opacity: 0;
+
+            &.active {
+                // box-shadow: 0 0 1000px 550px $--bg-color;
+                // background-color: $--bg-color;
+                animation: 6s ease-out 1s kyo;
+            }
         }
 
 
 
         .eye {
             position: absolute;
-            left: 40.5%;
+            margin: auto;
             width: 280px;
             height: 280px;
             background-color: #000;
@@ -52,7 +76,15 @@
 
         }
 
+        button {
+            background-color: blue;
+            width: 100px;
+            height: 100px;
 
+            position: absolute;
+            margin: auto;
+            bottom: 40px;
+        }
 
     }
 
@@ -60,9 +92,12 @@
         0% {
             transform: scale(0);
             opacity: 0;
+
+            box-shadow: none;
+            background-color: none;
         }
 
-        15% {
+        2% {
             transform: rotate(0deg) scale(0);
             opacity: 1;
         }
@@ -82,8 +117,7 @@
         }
 
         100% {
-            transform: scale(15);
-
+            transform: scale(30);
             opacity: 0;
         }
 
@@ -95,11 +129,12 @@
             opacity: 0;
         }
 
-        34% {
+        35% {
             opacity: 0;
         }
 
-        35% {
+        36% {
+
             opacity: 1;
         }
 
