@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Koulen&family=Nunito+Sans&display=swap');
+@import 'mixins';
 
 $--bg-color: #ff000036;
 
@@ -8,13 +9,11 @@ $--bg-color: #ff000036;
     box-sizing: border-box;
     outline: none;
     text-decoration: none;
+
 }
 
 
 body {
-    // overflow: hidden;
-    background-color: #202020;
-
     &::-webkit-scrollbar {
         display: none;
     }
@@ -22,17 +21,27 @@ body {
 
 .App {
     color: #ffffff;
-    height: 100vh;
     display: flex;
+    background-color: #000;
 
     .fundo {
         display: flex;
         justify-content: center;
         align-items: center;
-        background-image: url('./images/fundo.png');
-        background-position: center center;
         width: 100vw;
         height: 100vh;
+
+        .sharin {
+            width: 600px;
+            height: 565px;
+            position: absolute;
+            margin: auto;
+
+            @include mobile {
+                width: 300px;
+                height: 282.5px;
+            }
+        }
 
         .mange {
             position: absolute;
@@ -45,6 +54,11 @@ body {
 
             &.active {
                 animation: 3s ease-out 1s mange;
+            }
+
+            @include mobile {
+                width: 115px;
+                height: 102px;
             }
         }
 
@@ -62,6 +76,11 @@ body {
                 // background-color: $--bg-color;
                 animation: 6s ease-out 1s kyo;
             }
+
+            @include mobile {
+                width: 115px;
+                height: 102px;
+            }
         }
 
 
@@ -74,6 +93,11 @@ body {
             background-color: #000;
             border-radius: 50%;
 
+
+            @include mobile {
+                width: 140px;
+                height: 140px;
+            }
         }
 
         button {

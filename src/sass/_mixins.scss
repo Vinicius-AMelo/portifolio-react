@@ -1,0 +1,23 @@
+@mixin mobile {
+    @media (max-width: 425px) {
+        @content
+    }
+}
+
+;
+
+@mixin nonScroll-pages {
+    @media (max-width: 425px) {
+        padding-top: 100px;
+        height: 100vh;
+    }
+}
+
+;
+
+@mixin scroll-pages {
+    @media (max-width: 425px) {
+        padding-top: 100px;
+        padding-bottom: 20px;
+    }
+}

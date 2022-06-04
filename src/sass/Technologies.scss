@@ -1,24 +1,27 @@
-.main--Technologies {
-    height: 100vh;
+@import 'mixins';
 
+.main--Technologies {
     display: flex;
     align-items: center;
     flex-direction: column;
 
     color: #EEE1E1;
 
+    @include scroll-pages;
+
     article {
-        margin: auto;
-        height: 300px;
-        width: 700px;
+        margin: 0 15%;
         font-size: 100px;
         display: flex;
         flex-wrap: wrap;
         gap: 50px;
+
+        @include mobile {
+            gap: 20px;
+        }
     }
 
     h1 {
-        margin: 30px;
         align-self: flex-start;
 
         p {

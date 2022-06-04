@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 import Typed from 'react-typed';
-import './Technologies.scss'
+import '../../sass/Technologies.scss'
 import { SiHtml5, SiCss3, SiJavascript, SiGit, SiTypescript, SiReact, SiSass, SiMongodb, SiTailwindcss, SiNextdotjs } from 'react-icons/si'
 
 

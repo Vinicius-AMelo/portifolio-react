@@ -5,7 +5,7 @@ import About from '../../Routes/About/About'
 import Projects from '../../Routes/Projects/Projects'
 import Technologies from '../../Routes/Technologies/Technologies'
 
-import './Content.scss'
+import '../../sass/Content.scss'
 
 
 function Content() {

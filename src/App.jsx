@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
-import './App.scss'
+import './sass/App.scss'
 import Nav from './components/Nav/Nav'
 import Content from './components/Content/Content'
 import { HashRouter } from 'react-router-dom'
 import sharingan from './sounds/MangekyoSharingan Sound.mp3'
 
-import Fundo from './images/fundo.png'
+import Fundo from './images/fundo2.png'
 import Foto from './images/react-js.png'
 
 function App() {

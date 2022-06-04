@@ -1,12 +1,16 @@
+@import 'mixins';
+
 .main--About {
-    height: 100vh;
     display: flex;
+    height: 100%;
     align-items: flex-end;
-    padding: 200px 100px;
     color: #ffffff;
+
+    @include nonScroll-pages;
 
     article {
         width: 600px;
+        margin-bottom: 30px;
 
         hr {
             width: 208px;

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Layout.scss'
+import '../../../sass/Layout.scss'
 
 import { FaLaptop, FaGithub } from 'react-icons/fa'
 import { IoCloseSharp } from 'react-icons/io5'

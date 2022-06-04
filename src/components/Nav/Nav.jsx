@@ -1,7 +1,7 @@
 import * as React from 'react'
 import { NavLink } from 'react-router-dom'
 import { FaHome, FaUserAlt, FaTools, FaLaptopCode, FaEnvelope } from 'react-icons/fa'
-import './Nav.scss'
+import '../../sass/Nav.scss'
 
 import Foto from '../../images/react-js.png'
 

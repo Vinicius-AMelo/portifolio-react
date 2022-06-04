@@ -1,5 +1,5 @@
 import * as React from 'react';
-import './Projects.scss'
+import '../../sass/Projects.scss'
 
 import Layout from './layout/Layout';
 
