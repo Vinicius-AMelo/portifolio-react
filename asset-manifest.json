@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portifolio-react/static/css/main.1f15dca7.css",
-    "main.js": "/portifolio-react/static/js/main.fa7c303b.js",
+    "main.js": "/portifolio-react/static/js/main.7d052e32.js",
     "static/media/MangekyoSharingan Sound.mp3": "/portifolio-react/static/media/MangekyoSharingan Sound.d24cf30bb57285c2e601.mp3",
     "static/media/CadastroFullStack.jpg": "/portifolio-react/static/media/CadastroFullStack.0bdfbb3d618ba1a439b3.jpg",
     "static/media/TaskList.jpg": "/portifolio-react/static/media/TaskList.762c5e747fc8d1572dca.jpg",
@@ -10,10 +10,10 @@
     "static/media/fundo2.png": "/portifolio-react/static/media/fundo2.d1374449b13e9d575611.png",
     "index.html": "/portifolio-react/index.html",
     "main.1f15dca7.css.map": "/portifolio-react/static/css/main.1f15dca7.css.map",
-    "main.fa7c303b.js.map": "/portifolio-react/static/js/main.fa7c303b.js.map"
+    "main.7d052e32.js.map": "/portifolio-react/static/js/main.7d052e32.js.map"
   },
   "entrypoints": [
     "static/css/main.1f15dca7.css",
-    "static/js/main.fa7c303b.js"
+    "static/js/main.7d052e32.js"
   ]
 }
