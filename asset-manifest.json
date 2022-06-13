@@ -1,7 +1,9 @@
 {
   "files": {
-    "main.css": "/portifolio-react/static/css/main.1f15dca7.css",
-    "main.js": "/portifolio-react/static/js/main.7d052e32.js",
+    "main.css": "/portifolio-react/static/css/main.08e2f055.css",
+    "main.js": "/portifolio-react/static/js/main.9e0ec828.js",
+    "static/media/sasuke-naruto.gif": "/portifolio-react/static/media/sasuke-naruto.66933c48794066cc8c69.gif",
+    "static/media/sharingan.gif": "/portifolio-react/static/media/sharingan.fdec2cb726fa1ba0ddf9.gif",
     "static/media/MangekyoSharingan Sound.mp3": "/portifolio-react/static/media/MangekyoSharingan Sound.d24cf30bb57285c2e601.mp3",
     "static/media/CadastroFullStack.jpg": "/portifolio-react/static/media/CadastroFullStack.0bdfbb3d618ba1a439b3.jpg",
     "static/media/TaskList.jpg": "/portifolio-react/static/media/TaskList.762c5e747fc8d1572dca.jpg",
@@ -9,11 +11,11 @@
     "static/media/Tenzies.jpg": "/portifolio-react/static/media/Tenzies.4b6f57aef7cbf47ba193.jpg",
     "static/media/fundo2.png": "/portifolio-react/static/media/fundo2.d1374449b13e9d575611.png",
     "index.html": "/portifolio-react/index.html",
-    "main.1f15dca7.css.map": "/portifolio-react/static/css/main.1f15dca7.css.map",
-    "main.7d052e32.js.map": "/portifolio-react/static/js/main.7d052e32.js.map"
+    "main.08e2f055.css.map": "/portifolio-react/static/css/main.08e2f055.css.map",
+    "main.9e0ec828.js.map": "/portifolio-react/static/js/main.9e0ec828.js.map"
   },
   "entrypoints": [
-    "static/css/main.1f15dca7.css",
-    "static/js/main.7d052e32.js"
+    "static/css/main.08e2f055.css",
+    "static/js/main.9e0ec828.js"
   ]
 }
