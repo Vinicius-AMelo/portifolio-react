@@ -26,7 +26,7 @@ function App() {
     }, 4700)
   }
   return (
-    <div className='App'>
+    <main className='App'>
       <HashRouter>
         {!loading && <Nav />}
         {loading && <div className='fundo'>
@@ -38,7 +38,7 @@ function App() {
         </div>}
         {!loading && <Content />}
       </HashRouter>
-    </div>
+    </main>
   )
 }
 

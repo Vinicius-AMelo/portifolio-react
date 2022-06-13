@@ -3,7 +3,7 @@ import '../../sass/Home.scss'
 
 function Home() {
     return (
-        <div className="main--Home">
+        <section className="main--Home">
             <div className="home">
                 <h2>
                     Olá, meu nome é
@@ -16,7 +16,7 @@ function Home() {
                     No mundo do Naruto este poder é capaz de fazer com que outras pessoas entrem no reino dos sonhos, e é isso que eu quero apresentar a quem está acessando o meu portifólio, o MEU sonho de ser programador, por aqui você vai poder ver os meus feitos como ninja (Projetos), os meus jutsus (Tecnologias) e além disso se você for um Tech Recruiter e Ninja como eu, pode fazer parte deste sonho comigo, me dando uma oportunidade de mostrar todas as minhas habilidades e evoluir cada vez mais. Aproveitem.
                 </p>
             </div>
-        </div>
+        </section>
     )
 }
 

@@ -20,7 +20,7 @@ function Technologies() {
     }
 
     return (
-        <div className="main--Technologies">
+        <section className="main--Technologies">
             <h1>Meus principais Jutsus são:
                 <p>
                     <Typed onStringTyped={bigIcon}
@@ -56,7 +56,7 @@ function Technologies() {
                 <SiTailwindcss className={techs === 7 ? 'TAILWIND active' : 'TAILWIND'} />
                 <SiNextdotjs className={techs === 8 ? 'NEXTJS active' : 'NEXTJS'} />
             </article>
-        </div>
+        </section>
     )
 }
 

@@ -3,13 +3,13 @@ import '../../sass/About.scss'
 
 function About() {
     return (
-        <div className="main--About">
-            <article>
+        <section className="main--About">
+            <div>
                 <h1>About...</h1>
                 <hr />
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores sit laboriosam quo repellat praesentium molestiae dolorem soluta reiciendis rem natus omnis error, dolore consequuntur aspernatur eligendi odit vel, accusantium alias!</p>
-            </article>
-        </div>
+            </div>
+        </section>
     )
 }
 
