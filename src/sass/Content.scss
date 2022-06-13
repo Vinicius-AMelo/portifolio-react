@@ -5,8 +5,10 @@
     width: 100%;
     font-family: 'Nunito Sans', sans-serif;
     background-color: #202020;
-    padding: 30px;
+    padding-top: 50px;
+    padding-left: 100px;
     height: 100vh;
+    font-size: 1.3rem;
 
     @include mobile {
         margin-left: 0;

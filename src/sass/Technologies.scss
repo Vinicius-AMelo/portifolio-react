@@ -3,6 +3,7 @@
 .main--Technologies {
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
 
     color: #EEE1E1;
@@ -10,8 +11,9 @@
     @include scroll-pages;
 
     article {
-        margin: 0 15%;
-        font-size: 100px;
+        width: 800px;
+        margin-top: 150px;
+        font-size: 120px;
         display: flex;
         flex-wrap: wrap;
         gap: 50px;
@@ -42,10 +44,10 @@
         color: #F7C327;
     }
 
-    .MONGODB {
-        background-color: #fff;
-        border-radius: 5px;
-        color: #00E661;
+    .REDUX {
+        // background-color: #fff;
+        // border-radius: 5px;
+        color: #7248B7;
     }
 
     .GIT {

@@ -2,19 +2,18 @@ import React, { useState } from 'react'
 
 import Typed from 'react-typed';
 import '../../sass/Technologies.scss'
-import { SiHtml5, SiCss3, SiJavascript, SiGit, SiTypescript, SiReact, SiSass, SiMongodb, SiTailwindcss, SiNextdotjs } from 'react-icons/si'
+import { SiHtml5, SiCss3, SiJavascript, SiGit, SiTypescript, SiReact, SiSass, SiRedux, SiTailwindcss, SiNextdotjs } from 'react-icons/si'
 
 
 function Technologies() {
 
-    const [techs, setTechs] = useState(7);
+    const [techs, setTechs] = useState(9);
 
     function bigIcon(e) {
-        if (techs === 3 || techs === 4 || techs === 8) {
+        if (techs === 1 || techs === 2 || techs === 8) {
             setTimeout(() => { setTechs(e) }, 2500)
-        } else if (techs === 6) {
-            setTimeout(() => { setTechs(e) }, 2350)
-        } else {
+        }
+        else {
             setTimeout(() => { setTechs(e) }, 2200)
         }
     }
@@ -28,14 +27,14 @@ function Technologies() {
                         strings={[
                             'HTML5',
                             'CSS3',
-                            'SASS',
-                            'Git',
                             'JavaScript',
                             'TypeScript',
+                            'Git',
                             'React',
-                            'MongoDB',
                             'NextJS',
-                            'TailwindCSS'
+                            'Redux6',
+                            'SASS',
+                            'TailwindCSS',
                         ]}
                         typeSpeed={50}
                         backDelay={2000}
@@ -47,14 +46,14 @@ function Technologies() {
             <article>
                 <SiHtml5 className={techs === 9 ? 'HTML active' : 'HTML'} />
                 <SiCss3 className={techs === 0 ? 'CSS3 active' : 'CSS3'} />
-                <SiSass className={techs === 1 ? 'SASS active' : 'SASS'} />
-                <SiGit className={techs === 2 ? 'GIT active' : 'GIT'} />
-                <SiJavascript className={techs === 3 ? 'JS active' : 'JS'} />
-                <SiTypescript className={techs === 4 ? 'TS active' : 'TS'} />
-                <SiReact className={techs === 5 ? 'REACT active' : 'REACT'} />
-                <SiMongodb className={techs === 6 ? 'MONGODB active' : 'MONGODB'} />
-                <SiTailwindcss className={techs === 7 ? 'TAILWIND active' : 'TAILWIND'} />
-                <SiNextdotjs className={techs === 8 ? 'NEXTJS active' : 'NEXTJS'} />
+                <SiJavascript className={techs === 1 ? 'JS active' : 'JS'} />
+                <SiTypescript className={techs === 2 ? 'TS active' : 'TS'} />
+                <SiGit className={techs === 3 ? 'GIT active' : 'GIT'} />
+                <SiReact className={techs === 4 ? 'REACT active' : 'REACT'} />
+                <SiNextdotjs className={techs === 5 ? 'NEXTJS active' : 'NEXTJS'} />
+                <SiRedux className={techs === 6 ? 'REDUX active' : 'REDUX'} />
+                <SiSass className={techs === 7 ? 'SASS active' : 'SASS'} />
+                <SiTailwindcss className={techs === 8 ? 'TAILWIND active' : 'TAILWIND'} />
             </article>
         </section>
     )

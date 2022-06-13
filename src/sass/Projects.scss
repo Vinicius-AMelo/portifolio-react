@@ -7,6 +7,12 @@
     flex-wrap: wrap;
     gap: 10px;
 
-    @include scroll-pages;
+
+    @mixin mobile {
+        @media (max-width: 425px) {
+            padding-top: 100px;
+            padding-bottom: 20px;
+        }
+    }
 
 }

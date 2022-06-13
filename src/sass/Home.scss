@@ -1,14 +1,44 @@
 @import 'mixins';
 
 .main--Home {
+    display: flex;
+    // align-items: center;
+    height: 100%;
+    gap: 20px;
 
-    @include nonScroll-pages;
+    img {
+        margin-top: 65px;
+        width: 400px;
+        height: 200px;
+        border-radius: 5px;
+    }
+
+    @mixin mobile {
+        @media (max-width: 425px) {
+            padding-top: 100px;
+            height: 100vh;
+        }
+    }
 
 
     .home {
+        height: 100%;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
         gap: 10px;
+        justify-content: space-evenly;
+        margin-bottom: 70px;
+        // margin-left: 70px;
+    }
+
+    h1 {
+        font-size: 80px;
+    }
+
+    p {
+        text-align: justify;
+        width: 800px;
+
     }
 }
