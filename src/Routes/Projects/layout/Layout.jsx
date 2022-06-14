@@ -32,7 +32,7 @@ function Layout({ linkPages, linkGitHub, img, techs, projectName, projectDescrip
 
                     <div className='infos'>
                         <div className='techs'>
-                            {techs.map(tech => <p>{tech}</p>)}
+                            {techs.map((tech, index) => <p key={index}>{tech}</p>)}
                         </div>
                         <h1>{projectName}</h1>
                         <p>{projectDescription}</p>

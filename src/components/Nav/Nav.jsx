@@ -14,7 +14,7 @@ function Nav() {
             <ul>
                 <li>
                     <NavLink
-                        exact={true} activeclassname='active'
+                        activeclassname='active'
                         className='Home'
                         to='/'>
                         <FaHome />
@@ -23,7 +23,7 @@ function Nav() {
                 </li>
                 <li>
                     <NavLink
-                        exact={true} activeclassname='active'
+                        activeclassname='active'
                         className='Techs'
                         to='/Technologies'>
                         <FaTools />
@@ -32,7 +32,7 @@ function Nav() {
                 </li>
                 <li>
                     <NavLink
-                        exact={true} activeclassname='active'
+                        activeclassname='active'
                         className='About'
                         to='/About'>
                         <FaUserAlt />
@@ -41,7 +41,8 @@ function Nav() {
                 </li>
                 <li>
                     <NavLink
-                        exact={true} activeclassname='active'
+
+                        activeclassname='active'
                         className='Projects'
                         to='/Projects'>
                         <FaLaptopCode />
@@ -50,7 +51,7 @@ function Nav() {
                 </li>
                 <li>
                     <NavLink
-                        exact={true} activeclassname='active'
+                        activeclassname='active'
                         className='Contact'
                         to='/Contact'>
                         <FaEnvelope />
