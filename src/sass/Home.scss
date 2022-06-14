@@ -2,8 +2,6 @@
 
 .main--Home {
     display: flex;
-    // flex-direction: column;
-    // align-items: center;
     height: 100%;
     gap: 20px;
 
@@ -14,11 +12,16 @@
         border-radius: 5px;
 
         @include mobile {
-            display: none;
+            // display: none;
+            margin-top: 20px;
+            width: 300px;
+            height: 150px;
         }
     }
 
     @include mobile {
+        flex-direction: column;
+        align-items: center;
         padding-top: 100px;
         padding-bottom: 20px;
     }

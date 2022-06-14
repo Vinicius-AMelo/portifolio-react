@@ -20,7 +20,6 @@ function App() {
 
     sharinganSound.play()
 
-    console.log('s')
     setTimeout(() => {
       setLoading(false)
     }, 4700)
