@@ -32,7 +32,7 @@ function Technologies() {
                             'Git',
                             'React',
                             'NextJS',
-                            'Redux6',
+                            'Redux',
                             'SASS',
                             'TailwindCSS',
                         ]}

@@ -3,7 +3,6 @@
 .main--Technologies {
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-direction: column;
 
     color: #EEE1E1;
@@ -12,7 +11,8 @@
         padding-top: 100px;
         height: 100vh;
         padding-bottom: 20px;
-        justify-content: space-between;
+        gap: 40px;
+        justify-content: center;
     }
 
     article {
