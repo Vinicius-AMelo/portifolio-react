@@ -34,11 +34,11 @@
         flex-wrap: wrap;
         gap: 10px;
         justify-content: space-evenly;
-        align-items: center;
         margin-bottom: 70px;
         // margin-left: 70px;
 
         @include mobile {
+            align-items: center;
             width: 100vw;
         }
     }
