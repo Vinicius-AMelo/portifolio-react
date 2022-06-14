@@ -8,7 +8,12 @@
 
     color: #EEE1E1;
 
-    @include scroll-pages;
+    @include mobile {
+        padding-top: 100px;
+        height: 100vh;
+        padding-bottom: 20px;
+        justify-content: space-between;
+    }
 
     article {
         width: 800px;
@@ -19,12 +24,20 @@
         gap: 50px;
 
         @include mobile {
+            justify-content: center;
+            width: 90vw;
             gap: 20px;
+            font-size: 70px;
+            margin-top: 30px;
         }
     }
 
     h1 {
         align-self: flex-start;
+
+        @include mobile {
+            font-size: 1.6rem;
+        }
 
         p {
             font-size: 1.5em;
@@ -45,8 +58,6 @@
     }
 
     .REDUX {
-        // background-color: #fff;
-        // border-radius: 5px;
         color: #7248B7;
     }
 
@@ -58,6 +69,10 @@
         border-radius: 7px;
         background-color: #fff;
         color: #2F74C0;
+
+        @include mobile {
+            border-radius: 4px;
+        }
     }
 
     .REACT {

@@ -1,33 +1,6 @@
+@import 'mixins';
+
 .main--Layout {
-
-    // .cc {
-    //     background-color: #0CAADC;
-    //     display: flex;
-    //     align-items: center;
-
-    //     height: 26.5px;
-    //     width: 80px;
-
-    //     &:hover {
-
-    //         .closeWindow {
-    //             color: #7E0508;
-    //             cursor: pointer;
-    //         }
-
-    //     }
-
-    //     .closeWindow {
-    //         background-color: #FC5753;
-    //         color: #FC5753;
-
-    //         font-size: 15px;
-
-    //         border-radius: 50%;
-
-    //         margin-left: 20px;
-    //     }
-    // }
 
     .Layout {
         cursor: pointer;
@@ -40,7 +13,7 @@
 
         padding: 10px;
 
-
+        box-shadow: 3px 3px 7px rgba($color: #000000, $alpha: 0.5);
 
         img {
             width: 310px;
@@ -52,7 +25,7 @@
 
 
         &:hover {
-            // animation: 0.2s ease-out chique;
+            animation: 0.2s ease-out chique;
         }
 
         @keyframes chique {
@@ -71,11 +44,12 @@
     }
 
     .active {
-        margin-left: 125px;
+        margin-left: 120px;
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
+
 
         cursor: default;
 
@@ -83,7 +57,7 @@
         color: #fff;
 
         width: 700px;
-        height: 530px;
+        height: 550px;
 
         padding: 25px 10px;
 
@@ -105,6 +79,7 @@
             gap: 5px;
             padding: 0 10px;
             height: 100%;
+            text-align: justify;
 
             .buttons {
                 display: flex;
@@ -119,25 +94,78 @@
 
             .techs {
                 display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
                 gap: 2px;
                 margin: 10px auto;
 
 
                 p {
                     padding: 3px;
-                    background-color: #fff;
-                    color: #0CAADC;
-                    height: 20px;
+                    background-color: #dA0000;
+                    color: #eee;
+                    height: 25px;
                     display: flex;
                     justify-content: center;
                     align-items: center;
                     border-radius: 3px;
+
                 }
             }
         }
 
-        &:hover {
-            // animation: none;
+        .closeWindow {
+            position: absolute;
+            background-color: #FC5753;
+            color: #FC5753;
+            font-size: 15px;
+            border-radius: 50%;
+            top: 7px;
+            left: 15px;
+            z-index: 1;
+
+            @include mobile {
+                color: #630005;
+            }
+
+            &:hover {
+                color: #630005;
+                cursor: pointer;
+            }
+
         }
+
+        @include mobile {
+            margin: 0px;
+            position: fixed;
+
+            width: 90vw;
+            height: 600px;
+
+            padding: 10px;
+
+            img {
+                width: 75vw;
+                height: 281px;
+                margin: 25px auto;
+            }
+        }
+
+    }
+
+    .shadow {
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.50);
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        @include mobile {
+            // display: none;
+            position: fixed;
+        }
+
+        // Para bloquear os clicks nos outros projetos enquanto ativo
     }
 }

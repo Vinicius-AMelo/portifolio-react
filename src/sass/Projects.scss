@@ -8,11 +8,10 @@
     gap: 10px;
 
 
-    @mixin mobile {
-        @media (max-width: 425px) {
-            padding-top: 100px;
-            padding-bottom: 20px;
-        }
+    @include mobile {
+        padding-top: 100px;
+        padding-bottom: 20px;
+
     }
 
 }

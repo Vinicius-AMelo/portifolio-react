@@ -2,6 +2,7 @@
 
 .main--Home {
     display: flex;
+    // flex-direction: column;
     // align-items: center;
     height: 100%;
     gap: 20px;
@@ -11,13 +12,15 @@
         width: 400px;
         height: 200px;
         border-radius: 5px;
+
+        @include mobile {
+            display: none;
+        }
     }
 
-    @mixin mobile {
-        @media (max-width: 425px) {
-            padding-top: 100px;
-            height: 100vh;
-        }
+    @include mobile {
+        padding-top: 100px;
+        padding-bottom: 20px;
     }
 
 
@@ -28,17 +31,29 @@
         flex-wrap: wrap;
         gap: 10px;
         justify-content: space-evenly;
+        align-items: center;
         margin-bottom: 70px;
         // margin-left: 70px;
+
+        @include mobile {
+            width: 100vw;
+        }
     }
 
     h1 {
         font-size: 80px;
+
+        @include mobile {
+            font-size: 40px;
+        }
     }
 
     p {
         text-align: justify;
         width: 800px;
 
+        @include mobile {
+            width: 80vw;
+        }
     }
 }
