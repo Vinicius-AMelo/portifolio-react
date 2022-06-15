@@ -33,7 +33,7 @@ function App() {
           <div className='eye'></div>
           <img className={`mange ${animation}`} src={Foto} alt="foto" />
           <img className={`kyo ${animation}`} src={Foto} alt="foto" />
-          <button onClick={infiniteTsukuyomi}>hehe</button>
+          <button onClick={infiniteTsukuyomi}>Entrar no Mundo dos Sonhos</button>
         </div>}
         {!loading && <Content />}
       </HashRouter>

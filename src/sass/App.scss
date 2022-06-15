@@ -72,8 +72,6 @@ body {
             opacity: 0;
 
             &.active {
-                // box-shadow: 0 0 1000px 550px $--bg-color;
-                // background-color: $--bg-color;
                 animation: 6s ease-out 1s kyo;
             }
 
@@ -101,8 +99,13 @@ body {
         }
 
         button {
-            background-color: blue;
-            width: 100px;
+            background-color: #BA2028;
+            color: white;
+            box-shadow: 3px 3px 4px rgba($color: #BA2028, $alpha: 0.25);
+            border-radius: 20px;
+
+            font-size: 20px;
+            width: 200px;
             height: 100px;
 
             position: absolute;
