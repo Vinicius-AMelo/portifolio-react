@@ -1,6 +1,6 @@
 import React from "react"
 import '../../sass/Contact.scss'
-import CV from '../../images/Curriculo Vinícius Melo.pdf'
+import CV from '../../archives/Curriculo Vinícius Melo.pdf'
 import { FaEnvelope, FaLinkedinIn, FaGithub } from 'react-icons/fa'
 
 
