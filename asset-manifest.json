@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/portifolio-react/static/css/main.e3f6daa7.css",
-    "main.js": "/portifolio-react/static/js/main.a106b8d2.js",
+    "main.css": "/portifolio-react/static/css/main.8d00e10b.css",
+    "main.js": "/portifolio-react/static/js/main.a0be6906.js",
     "static/media/sasuke-naruto.gif": "/portifolio-react/static/media/sasuke-naruto.66933c48794066cc8c69.gif",
+    "static/media/Curriculo Vinícius Melo.pdf": "/portifolio-react/static/media/Curriculo Vinícius Melo.3e1b2015c57b301fdef8.pdf",
     "static/media/sharingan.gif": "/portifolio-react/static/media/sharingan.fdec2cb726fa1ba0ddf9.gif",
     "static/media/Pokedex.jpeg": "/portifolio-react/static/media/Pokedex.207811ef9dec3d8d42c9.jpeg",
     "static/media/Weather-App.jpeg": "/portifolio-react/static/media/Weather-App.9651741a8a48c13b3ecc.jpeg",
@@ -13,11 +14,11 @@
     "static/media/Tenzies.jpg": "/portifolio-react/static/media/Tenzies.4b6f57aef7cbf47ba193.jpg",
     "static/media/fundo2.png": "/portifolio-react/static/media/fundo2.d1374449b13e9d575611.png",
     "index.html": "/portifolio-react/index.html",
-    "main.e3f6daa7.css.map": "/portifolio-react/static/css/main.e3f6daa7.css.map",
-    "main.a106b8d2.js.map": "/portifolio-react/static/js/main.a106b8d2.js.map"
+    "main.8d00e10b.css.map": "/portifolio-react/static/css/main.8d00e10b.css.map",
+    "main.a0be6906.js.map": "/portifolio-react/static/js/main.a0be6906.js.map"
   },
   "entrypoints": [
-    "static/css/main.e3f6daa7.css",
-    "static/js/main.a106b8d2.js"
+    "static/css/main.8d00e10b.css",
+    "static/js/main.a0be6906.js"
   ]
 }
