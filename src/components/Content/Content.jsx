@@ -4,6 +4,7 @@ import Home from '../../Routes/Home/Home'
 import About from '../../Routes/About/About'
 import Projects from '../../Routes/Projects/Projects'
 import Technologies from '../../Routes/Technologies/Technologies'
+import Contact from '../../Routes/Contact/Contact'
 
 import '../../sass/Content.scss'
 
@@ -16,6 +17,7 @@ function Content() {
         <Route path="/Technologies" element={<Technologies />} />
         <Route path="/About" element={<About />} />
         <Route path="/Projects" element={<Projects />} />
+        <Route path="/Contact" element={<Contact />} />
       </Routes>
     </div>
   )
